@@ -1,4 +1,4 @@
-# My-Bililive-Recorder
+# My-BiliLive-Recorder
 
 > [DanmukuRender](https://github.com/SmallPeaches/DanmakuRender) Embbed
 
