@@ -6,5 +6,5 @@ services:
     image: drm:latest
     container_name: recorder
     volumes:
-      - /home/xwx/Code/My-Bililive-Recorder/DanmakuRender:/app
-      - /home/xwx/Code/My-Bililive-Recorder/configs:/app/configs
+      - ./DanmakuRender:/app
+      - ./configs:/app/configs
