@@ -2,9 +2,11 @@ version: '3'
 services:
   record:
     restart: always
+    user: "1000:1000"
     build: ./DanmakuRender
     image: drm:latest
     container_name: recorder
     volumes:
       - ./DanmakuRender:/app
       - ./configs:/app/configs
+      - /home/xwx/Media/Live:/app/Live
