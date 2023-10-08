@@ -9,4 +9,4 @@ services:
     volumes:
       - ./DanmakuRender:/app
       - ./configs:/app/configs
-      - $HOME/Media/Live:/app/Live
+      - /home/xwx/Media/Live:/app/Live
