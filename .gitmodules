@@ -1,0 +1,3 @@
+[submodule "DanmakuRender"]
+	path = DanmakuRender
+	url = https://github.com/SmallPeaches/DanmakuRender.git
