@@ -6,6 +6,8 @@ services:
     build: ./DanmakuRender
     image: drm:latest
     container_name: recorder
+    environment:
+      TZ: 'Asia/Shanghai'
     volumes:
       - ./DanmakuRender:/app
       - ./configs:/app/configs
